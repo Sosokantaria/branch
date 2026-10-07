@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.inline {
+ background-color: red; /* display: inline; */
+ display: inline;
+}
+.inline2{
+    display: inline-block;
+    width: 29%;
+    background-color: yellow;
+}
+.overflow{
+    background-color: purple;
+    width: 30%;
+    height: 60px;
+    border: 2px solid black;
+    overflow: scroll;
+    color: white;
+    /* overflow: auto; */
+}
